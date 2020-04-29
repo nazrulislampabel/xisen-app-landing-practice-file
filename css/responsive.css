@@ -1,0 +1,153 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .information-img img {
+        margin-left: 0;
+        width: 100%;
+        margin-top: 120px;
+    }
+    .footer-bg {
+         background-size: cover;
+     }
+    .footer-bg {
+        background-repeat: no-repeat;
+        background-position: center bottom;
+    }
+
+}
+
+ 
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .logo {
+        position: absolute;
+        z-index: 2;
+        margin-top: 15px;
+    }
+
+    .mean-container .mean-bar {
+        background: none;
+        z-index: 9999;
+        margin-top: 10px;
+    }
+
+    .mean-container a.meanmenu-reveal {
+        color: #0c1923;
+        top: -5px;
+    }
+    .mean-container a.meanmenu-reveal span {
+        background: #0c1923;
+    }
+
+    .single-blog {
+        padding: 13px;
+        margin-bottom: 20px;
+    }
+    .easy-area-text {
+        padding-top: 70px;
+    }
+    .work-area {
+        padding-top: 95px;
+    }
+    .section-title {
+        padding: 50px 0;
+    }
+
+    .information-area {
+        padding: 50px 0;
+    }
+
+    .information-img img {
+        margin-left: 0;
+        margin-top: 50px;
+    }
+
+    .single-price {
+        margin-bottom: 20px;
+    }
+    .testimonial-area {
+        padding-top: 50px;
+    }
+
+    section.brand-area {
+        padding-top: 80px;
+    }
+    .subscribe-area {
+         padding: 30px 0;
+     }
+
+}
+
+ 
+/* small mobile :320px. */
+@media (max-width: 767px) {
+    .logo {
+        margin-top: 25px;
+    }
+    .mean-container .mean-bar {
+        background: transparent;
+        padding: 0;
+    }
+    .mean-container a.meanmenu-reveal {
+        top: -43px;
+        color: #00c867;
+    }
+    .mean-container a.meanmenu-reveal span {
+        background: #1c3354;
+        margin-top: 3px;
+    }
+    .mean-container .mean-nav {
+        background: #1c3354;
+        margin-top: 10px;
+    }
+    .mean-container .mean-nav ul li a {
+        color: #fff;
+    }
+    .mean-container .mean-nav ul li a.mean-expand:hover {
+        background: rgb(28, 51, 84);
+    }
+    .section-title {
+        padding-bottom: 30px;
+    }
+
+    .section-title h2 {
+        font-size: 30px;
+        margin-bottom: 0px;
+    }
+
+
+    .easy-area-text h2 {
+        font-size: 43px;
+    }
+
+    .information-img img {
+        max-width: 100%;
+        margin-top: 40px;
+        margin-left: 20px;
+    }
+
+    .testimonial-img img {
+        max-width: 100%;
+    }
+    .newsletter input {
+        width: 65%;
+    }
+    .newsletter button {
+        padding: 0 30px;
+    }
+
+    .single-price {
+        margin-bottom: 20px;
+    }
+}
+ 
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+}
