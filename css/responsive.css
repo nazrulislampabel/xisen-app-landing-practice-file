@@ -112,6 +112,18 @@
     .mean-container .mean-nav ul li a.mean-expand:hover {
         background: rgb(28, 51, 84);
     }
+    .slider-height {
+        min-height: 700px;
+    }
+    .slider-text {
+         padding-bottom: 40px;
+     }
+
+    .slider-text h2 {
+        font-size: 40px;
+    }
+
+
     .section-title {
         padding-bottom: 30px;
     }
@@ -120,7 +132,9 @@
         font-size: 30px;
         margin-bottom: 0px;
     }
-
+    .work-area {
+        padding-top: 50px;
+    }
 
     .easy-area-text h2 {
         font-size: 43px;
@@ -129,7 +143,7 @@
     .information-img img {
         max-width: 100%;
         margin-top: 40px;
-        margin-left: 20px;
+        margin-left: 15px;
     }
 
     .testimonial-img img {
@@ -141,6 +155,7 @@
     .newsletter button {
         padding: 0 10px;
     }
+
 
     .single-price {
         margin-bottom: 20px;

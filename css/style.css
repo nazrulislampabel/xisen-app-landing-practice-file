@@ -209,6 +209,21 @@ label {
 	border: 1px solid #00E3A1;
 }
 
+.red-btn.btn{
+	border: 1px solid #fff;
+	border-radius: 3px;
+}
+.red-btn.btn-border {
+	background: #ff5b5b;
+	border: 1px solid #ff5b5b;
+	color: #fff;
+}
+
+.header-btn .red-btn.btn-border:hover{
+	color: #233d63;
+	background: #ffffff;
+}
+
 .btn-border {
 	background: transparent;
 	border: 1px solid #00c867;
